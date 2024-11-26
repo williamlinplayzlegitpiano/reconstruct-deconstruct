@@ -1,0 +1,24 @@
+2024-11-25 20:00:28.416 [info] Extension host with pid 3218 started
+2024-11-25 20:00:28.417 [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock'
+2024-11-25 20:00:28.495 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-25 20:00:28.498 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': The lock does not look stale, elapsed: 118 ms, giving up.
+2024-11-25 20:00:28.502 [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db-1/vscode.lock'
+2024-11-25 20:00:28.518 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-25 20:00:28.606 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-25 20:00:28.642 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db-1/vscode.lock': The lock looks stale, waiting for 2s.
+2024-11-25 20:00:29.611 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-25 20:00:30.643 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db-1/vscode.lock': The lock looks stale even after waiting for 2s.
+2024-11-25 20:00:30.643 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db-1/vscode.lock': Deleting a stale lock.
+2024-11-25 20:00:30.658 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db-1/vscode.lock': Lock acquired.
+2024-11-25 20:00:30.779 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-25 20:00:30.780 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-25 20:00:31.309 [info] Eager extensions activated
+2024-11-25 20:00:31.309 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-25 20:00:31.313 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-25 20:00:37.889 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-25 20:00:45.158 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-25 20:12:02.316 [info] Extension host terminating: received terminate message from renderer
+2024-11-25 20:12:02.321 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-25 20:12:02.390 [info] Extension host with pid 3218 exiting with code 0

@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"name": "coder",
+			"uri": "vscode-remote://us.prairielearn.com/home/coder"
+		}
+	],
+	"remoteAuthority": "us.prairielearn.com",
+	"settings": {}
+}

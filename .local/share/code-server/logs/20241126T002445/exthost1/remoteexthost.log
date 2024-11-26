@@ -1,0 +1,20 @@
+2024-11-26 00:24:49.493 [info] Extension host with pid 48 started
+2024-11-26 00:24:49.494 [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock'
+2024-11-26 00:24:49.500 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-26 00:24:49.513 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': The pid 6172 appears to be gone.
+2024-11-26 00:24:49.513 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': Deleting a stale lock.
+2024-11-26 00:24:49.535 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': Lock acquired.
+2024-11-26 00:24:49.604 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-26 00:24:49.795 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-26 00:24:49.876 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-26 00:24:49.877 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-26 00:24:50.227 [info] Eager extensions activated
+2024-11-26 00:24:50.227 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-26 00:24:50.232 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-26 00:24:56.753 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-26 00:25:07.593 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-26 01:30:25.393 [info] Extension host terminating: received terminate message from renderer
+2024-11-26 01:30:25.395 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-26 01:30:25.525 [info] Extension host with pid 48 exiting with code 0
