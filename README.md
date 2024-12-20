@@ -13,4 +13,8 @@ The project provides two executable programs: `compress` and `uncompress`.
 
 ### Compressing a File
 ```bash
-$ ./compress <original_file> <compressed_file>
+$ ./compress <original> <compressed>
+
+### Uncompressing a File
+```bash
+$ ./uncompress <compressed> <output-file>
