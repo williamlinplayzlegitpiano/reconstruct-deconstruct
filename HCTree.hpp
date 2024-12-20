@@ -46,12 +46,12 @@ class HCTree {
         /**
          * Populate the codeLengths vector with the code length for each symbol.
          */
-        void getCodeLengths(vector<unsigned char> & codeLengths) const;
+       // void getCodeLengths(vector<unsigned char> & codeLengths) const;
 
         /**
          * Build the Huffman tree from symbols and their code lengths (Canonical Huffman Codes).
          */
-        void buildFromCodeLengths(const vector<unsigned char> & symbols, const vector<unsigned char> & codeLengths);
+       // void buildFromCodeLengths(const vector<unsigned char> & symbols, const vector<unsigned char> & codeLengths);
 
 };
 #endif // HCTREE_HPP

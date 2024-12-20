@@ -23,3 +23,6 @@
 	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
 2024-11-26 20:51:07.042 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
 	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-26 21:04:33.377 [info] Extension host terminating: received terminate message from renderer
+2024-11-26 21:04:33.380 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-856d888/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-26 21:04:33.720 [info] Extension host with pid 60341 exiting with code 0

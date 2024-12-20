@@ -1,0 +1,61 @@
+2024-11-26 21:05:54.630 [info] [main] Log level: Info
+2024-11-26 21:05:54.630 [info] [main] Validating found git in: "git"
+2024-11-26 21:05:54.630 [info] [main] Using git "2.39.2" from "git"
+2024-11-26 21:05:54.630 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-26 21:05:54.630 [info] > git rev-parse --show-toplevel [128ms]
+2024-11-26 21:05:54.630 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-11-26 21:05:54.630 [info] [Model][openRepository] Opened repository: /home/coder
+2024-11-26 21:05:54.633 [info] > git config --get commit.template [15ms]
+2024-11-26 21:05:54.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-11-26 21:05:54.643 [info] > git rev-parse --show-toplevel [29ms]
+2024-11-26 21:05:54.658 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-26 21:05:54.729 [info] > git rev-parse --show-toplevel [65ms]
+2024-11-26 21:05:54.743 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-26 21:05:54.748 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-26 21:05:54.784 [info] > git status -z -uall [141ms]
+2024-11-26 21:05:54.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [58ms]
+2024-11-26 21:05:54.860 [info] > git config --get commit.template [22ms]
+2024-11-26 21:05:54.864 [info] > git config --local branch.master.vscode-merge-base [12ms]
+2024-11-26 21:05:54.865 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-26 21:05:54.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2024-11-26 21:05:54.931 [info] > git reflog master --grep-reflog=branch: Created from *. [60ms]
+2024-11-26 21:05:54.949 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2024-11-26 21:05:54.949 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-26 21:05:54.992 [info] > git status -z -uall [117ms]
+2024-11-26 21:05:55.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [61ms]
+2024-11-26 21:05:55.083 [info] > git config --local branch.master.vscode-merge-base [16ms]
+2024-11-26 21:05:55.083 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-26 21:05:55.115 [info] > git reflog master --grep-reflog=branch: Created from *. [27ms]
+2024-11-26 21:05:55.151 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [33ms]
+2024-11-26 21:05:55.151 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-26 21:05:55.256 [info] > git check-ignore -v -z --stdin [12ms]
+2024-11-26 21:05:55.494 [info] > git ls-files --stage -- /home/coder/Helper.cpp [11ms]
+2024-11-26 21:05:55.503 [info] > git show --textconv :Helper.cpp [24ms]
+2024-11-26 21:05:55.515 [info] > git cat-file -s 2ceee3749fac1d11006c32ffbc444b009b241b7b [14ms]
+2024-11-26 21:05:57.537 [info] > git ls-files --stage -- /home/coder/HCTree.hpp [14ms]
+2024-11-26 21:05:57.542 [info] > git show --textconv :HCTree.hpp [26ms]
+2024-11-26 21:05:57.554 [info] > git cat-file -s 484375c832bee07ff48d239003dae46ca1758014 [15ms]
+2024-11-26 21:05:58.585 [info] > git ls-files --stage -- /home/coder/compress.cpp [20ms]
+2024-11-26 21:05:58.592 [info] > git show --textconv :compress.cpp [33ms]
+2024-11-26 21:05:58.621 [info] > git cat-file -s 985db19fd33a25e75d1b2957d45e47a932affbc9 [30ms]
+2024-11-26 21:06:18.283 [info] > git ls-files --stage -- /home/coder/HCTree.cpp [13ms]
+2024-11-26 21:06:18.288 [info] > git show --textconv :HCTree.cpp [22ms]
+2024-11-26 21:06:18.298 [info] > git cat-file -s 9e913fb44f8474c8b4340f9a47c0292369062c75 [11ms]
+2024-11-26 21:06:18.809 [info] > git ls-files --stage -- /home/coder/HCTree.hpp [12ms]
+2024-11-26 21:06:18.813 [info] > git show --textconv :HCTree.hpp [19ms]
+2024-11-26 21:06:18.824 [info] > git cat-file -s 484375c832bee07ff48d239003dae46ca1758014 [11ms]
+2024-11-26 21:06:23.422 [info] > git config --get commit.template [9ms]
+2024-11-26 21:06:23.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2024-11-26 21:06:23.640 [info] > git status -z -uall [202ms]
+2024-11-26 21:06:23.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-11-26 21:06:23.671 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2024-11-26 21:06:23.671 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-26 21:06:23.688 [info] > git reflog master --grep-reflog=branch: Created from *. [14ms]
+2024-11-26 21:06:23.699 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2024-11-26 21:06:23.699 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-26 21:06:25.532 [info] > git show --textconv :HCTree.cpp [14ms]
+2024-11-26 21:06:25.536 [info] > git ls-files --stage -- /home/coder/HCTree.cpp [15ms]
+2024-11-26 21:06:25.562 [info] > git cat-file -s 9e913fb44f8474c8b4340f9a47c0292369062c75 [21ms]
+2024-11-26 21:06:55.980 [info] > git ls-files --stage -- /home/coder/HCTree.cpp [11ms]
+2024-11-26 21:06:55.986 [info] > git show --textconv :HCTree.cpp [20ms]
+2024-11-26 21:06:55.996 [info] > git cat-file -s 9e913fb44f8474c8b4340f9a47c0292369062c75 [12ms]

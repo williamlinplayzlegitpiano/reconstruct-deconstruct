@@ -139,7 +139,7 @@ unsigned char HCTree::decode(FancyInputStream & in) const {
 /**
  * fill codeLengths vector with code length of each symbol
  */
-void HCTree::getCodeLengths(vector<unsigned char> & codeLengths) const {
+/*void HCTree::getCodeLengths(vector<unsigned char> & codeLengths) const {
     for (int i = 0; i < 256; i++) {
         HCNode* leaf = leaves[i];
         if (leaf) {
@@ -157,7 +157,7 @@ void HCTree::getCodeLengths(vector<unsigned char> & codeLengths) const {
 /**
  * build using canonical huffman code
  */
-void HCTree::buildFromCodeLengths(const vector<unsigned char> & symbols, const vector<unsigned char> & codeLengths) {
+/*void HCTree::buildFromCodeLengths(const vector<unsigned char> & symbols, const vector<unsigned char> & codeLengths) {
     map<int, vector<unsigned char>> symbolLengths;
     for (size_t i = 0; i < symbols)
-}
+} 

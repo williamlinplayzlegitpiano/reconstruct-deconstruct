@@ -84,7 +84,7 @@ int main(int argc, char* argv[]) {
             outputFile.write_byte(static_cast<unsigned char>(i)); //symbol
             outputFile.write_int(freqs[i]); //freq
         }
-    }x
+    }
 
     //encode input file by reading each byte
     while ((scanByte = inputFile.read_byte()) != -1) {

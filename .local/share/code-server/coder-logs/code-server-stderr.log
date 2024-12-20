@@ -45,3 +45,33 @@ File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
 File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
 [2024-11-26T20:49:42.340Z] error Failed to get latest version [38;2;140;140;140m{"error":"getaddrinfo EAI_AGAIN api.github.com"}[0m
 File not found: /usr/lib/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 417
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 418
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 419
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 420
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 421
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 422
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 423
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 424
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 425
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 426
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 427
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 428
+[21:04:32] RequestStore#acceptReply was called without receiving a matching request 429
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/out/vsda.js
+[2024-11-26T21:06:52.508Z] error Failed to get latest version [38;2;140;140;140m{"error":"getaddrinfo EAI_AGAIN api.github.com"}[0m

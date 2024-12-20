@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-if (inputFile.filesize() == 0) {
+    if (inputFile.filesize() == 0) {
         outputFile.flush(); //create empty output file
         return 0;
     }

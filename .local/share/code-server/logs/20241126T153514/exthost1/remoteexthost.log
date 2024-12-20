@@ -75,3 +75,120 @@
 	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:941421)
 2024-11-26 21:00:13.560 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
 	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-26 21:00:16.724 [warning] [Decorations] CAPPING events from decorations provider vscode.git 256
+2024-11-26 21:00:17.748 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:936645)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async T.retryRun (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:941421)
+2024-11-26 21:00:20.200 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-26 21:00:52.423 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-26 21:01:03.048 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-11-26 21:01:23.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 257
+2024-11-26 21:03:42.081 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-26 21:04:27.072 [info] Extension host terminating: received terminate message from renderer
+2024-11-26 21:04:27.075 [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/3e9b14db/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-26 21:04:27.149 [error] Canceled: Canceled
+	at new A (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205940)
+	at d.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205378)
+	at C.registerCommand.description (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:204702)
+	at d.h (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206479)
+	at d.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205471)
+	at d.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205378)
+	at Object.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at n.O [as value] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:951642)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.C (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at g.eb (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at g.$ (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at g.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at i (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10650)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8617)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at d.A (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17612)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:15970)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at m.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12199)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11469)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21438) setContext undefined
+2024-11-26 21:04:27.151 [error] Canceled: Canceled
+	at new A (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205940)
+	at d.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205378)
+	at C.registerCommand.description (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:204702)
+	at d.h (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:206479)
+	at d.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205471)
+	at d.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:154:205378)
+	at Object.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/usr/lib/code-server/lib/vscode/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code-server/lib/vscode/extensions/github/dist/extension.js:2:323928
+	at n.value (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1060193)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.C (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at g.eb (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at g.$ (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at g.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at i (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:10650)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:177:8617)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at d.A (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:17612)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:15970)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at m.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:12199)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:11469)
+	at i.B (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at i.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:174:21438) setContext undefined
+2024-11-26 21:04:27.323 [info] Extension host with pid 49 exiting with code 0
