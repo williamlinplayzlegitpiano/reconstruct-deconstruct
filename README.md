@@ -14,7 +14,7 @@ Welcome to **Huffmanizer**, your go-to utility for compressing and decompressing
 - **Universal Compatibility** 🌐  
   Works with all file types up to 10 MB in size—be it text, images, or binaries.
 
-- **Powered by Huffman Coding** 🤓  
+- **Powered by Huffman Coding** 📉  
   Experience the elegance and efficiency of one of the best-known data compression algorithms.
 
 ---
